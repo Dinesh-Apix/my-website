@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+  <header>
+    <h3 id="title">Portfolio</h3>
+    <nav id="navBar">
+      <a href="#home">Home</a>
+      <a href="#projects">Projects</a>
+      <a href="#about-me">About me</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home">
+    <div class="home-container">
+      <img id="profile-img" src="circular_img_2.png" alt="Profile Image" />
+      <div id="home-content">
+        <h2>Hi, I'm Dinesh Karthick</h2>
+        <p>I'm an <span id="changing_text"></span></p>
+        <a id="resumeBtn" href="V.Dinesh_Karthick_Resume(Canva).pdf" download>
+          Download Resume
+        </a>
+        <div class="icons">
+          <a href="https://linkedin.com/in/dinesh-karthick-801a63251" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/Dinesh-Apix" target="_blank" title="Github"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <br>
+
+  <section id="projects">
+    <h1 id="project-header">Projects</h1>
+    <div class="projects-container">
+      <a href="https://github.com/Dinesh-Apix/javascript_codes" target="_blank">
+        <div class="project1" title="Click for the preview">
+            <h3 id="project1-title">Stock Market Forecasting</h3>
+            <p>Experienced stock market forecaster adept in data analysis and predictive modeling. Proven ability to make
+               accurate predictions using statistical techniques and machine learning. Seeking opportunities to apply
+               expertise in optimizing investment strategies.
+               <br>Skills used - Pandas, Pytorch, Python, Flask.</p>
+            <img style="width:500px; height:auto" src="stock_img.png">
+        </div>
+      </a>
+        <br>
+      <a href="https://github.com/Dinesh-Apix/deepfake_project" target="_blank">
+        <div class="project2" title="Click for the preview">
+            <h3 id="project2-title">Realistic Deepfake Transformation</h3>
+            <p>The project aims to develop a web application capable of seamlessly transforming one facial image into
+               another. the program will smoothly blend the facial features of two input images to create a morphed
+               transition.
+               <br>Skills used - Stable diffusion</p>
+            <img style="width:500px; height:auto" src="stable_img.png">
+        </div>
+      </a>
+    </div>
+  </section>
+  <br>
+
+  <section id="about-me">
+    <h1 class="about-me-header">About me</h1>
+    <div class="about-me-container">
+      <div class="about-me-paragraph">
+      <p><span id="first-letter">A</span>bout Me. I'm Dinesh Karthick. I’m a <span class="imp-L">Computer Science Engineering (CSE) graduate</span> from <span class="imp-L">Meenakshi College of Engineering</span>, originally from <span class="imp-L">Chennai</span>. My academic journey began at <span class="imp-L">Dhanish Mat.Hr.Sec School</span>, where I nurtured a deep curiosity for technology and problem-solving.
+          With expertise in <span class="imp-L">Java, JavaScript, HTML, CSS, and MongoDB</span>, I enjoy tackling challenges using <span class="imp-L">Data Structures and Algorithms (DSA)</span> and leveraging creativity to develop innovative solutions. My certifications in <span class="imp-L">DevOps and Network Engineering</span> have provided hands-on experience in <span class="imp-L">automation, cloud technologies, and system optimization</span>.
+          I’m also an <span class="imp-L">AI enthusiast</span>, fascinated by the transformative power of artificial intelligence in solving real-world problems. Whether it’s exploring machine learning, neural networks, or AI-driven solutions, I’m always eager to dive deeper into this evolving field.
+          Beyond tech, I have a strong passion for <span class="imp-L">chess</span>, a game that hones my analytical thinking, strategic decision-making, and ability to anticipate outcomes—qualities that also translate well into programming and problem-solving. Additionally, I’m an avid sports enthusiast, engaging in <span class="imp-L">athletic activities</span> that foster teamwork, resilience, and discipline.
+          I’m excited to grow, collaborate, and explore opportunities in a dynamic tech environment that values innovation and creative problem-solving. Let’s connect and build something great together!
+          Feel free to reach out at <span><a href="mailto:dineshvisu2002@gmail.com">dineshvisu2002@gmail.com</a></span>.
+      </p>
+      </div>
+    </div>
+  </section>
+  <br>
+  <br>
+  
+  <section id="contact">
+    <h1 class="contact-header">Contact Me</h1>
+    <p id="contact-p">Let's connect! Feel free to reach out.</p>
+
+    <div class="social-links-container">
+         <div class="contact-links">
+         <a href="mailto:dineshvisu2002@gmail.com" class="email-link">📧 Email Me</a>
+         <a href="tel:+916369972246" class="phone-link">📞 Call Me</a>
+         </div>
+         <div class="social-links">
+           <a href="https://github.com/Dinesh-Apix" target="_blank">GitHub</a>
+           <a href="https://linkedin.com/in/dinesh-karthick-801a63251" target="_blank">LinkedIn</a>
+          </div>
+    </div>
+
+    <form action="your-server-endpoint" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button id="submit" type="submit">Send</button>
+    </form>
+</section>
+<br>
+<br>
+<br>
+
+<footer>
+    <div class="footer-container">
+        <p>Made by V.Dinesh Karthick</p>
+</footer>
+
+
+  <script src="index.js"></script>
+</body>
+</html>
